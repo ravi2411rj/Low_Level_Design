@@ -1,4 +1,4 @@
-package com.lld.Creational.Prototype;
+package com.lld.Creational.Prototype_Registry;
 
 import lombok.Setter;
 
