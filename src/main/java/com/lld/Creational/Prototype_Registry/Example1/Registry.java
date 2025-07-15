@@ -1,4 +1,4 @@
-package com.lld.Creational.Prototype_Registry;
+package com.lld.Creational.Prototype_Registry.Example1;
 
 import java.util.HashMap;
 

@@ -1,4 +1,4 @@
-package com.lld.Creational.Prototype_Registry;
+package com.lld.Creational.Prototype_Registry.Example1;
 
 public class Main {
     public static void main(String[] args) {
