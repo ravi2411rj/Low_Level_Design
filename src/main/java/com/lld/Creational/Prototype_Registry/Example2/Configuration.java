@@ -1,5 +1,8 @@
 package com.lld.Creational.Prototype_Registry.Example2;
 
+import lombok.Getter;
+
+@Getter
 public class Configuration implements ClonableObject<Configuration> {
     private final String themeColor;
     private final Boolean autoSave;
@@ -18,34 +21,6 @@ public class Configuration implements ClonableObject<Configuration> {
         this.fontSize = fontSize;
         this.fontFamily = fontFamily;
         this.type = type;
-    }
-
-    public String getThemeColor() {
-        return themeColor;
-    }
-
-    public Boolean getAutoSave() {
-        return autoSave;
-    }
-
-    public String getLanguage() {
-        return language;
-    }
-
-    public Boolean getDarkMode() {
-        return darkMode;
-    }
-
-    public Integer getFontSize() {
-        return fontSize;
-    }
-
-    public String getFontFamily() {
-        return fontFamily;
-    }
-
-    public ConfigurationType getType() {
-        return type;
     }
 
     @Override
