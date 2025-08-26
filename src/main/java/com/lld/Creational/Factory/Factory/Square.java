@@ -1,4 +1,4 @@
-package com.lld.Creational.Factory.SimpleFactory;
+package com.lld.Creational.Factory.Factory;
 
 public class Square implements Shape {
     @Override

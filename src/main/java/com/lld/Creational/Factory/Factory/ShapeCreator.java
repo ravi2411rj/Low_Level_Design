@@ -1,4 +1,4 @@
-package com.lld.Creational.Factory.SimpleFactory;
+package com.lld.Creational.Factory.Factory;
 
 public abstract class ShapeCreator {
     public abstract Shape createShape();
