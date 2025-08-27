@@ -1,4 +1,11 @@
 package com.lld.Behavioral.ChainOfResponsibility.Example1;
 
-public class ErrorLogger {
+class ErrorLogger extends Logger {
+    protected boolean canHandle(LogLevel level) {
+        return level == LogLevel.ERROR;
+    }
+
+    protected void write(String message) {
+        System.out.println("ERROR: " + message);
+    }
 }
